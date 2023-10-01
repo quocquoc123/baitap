@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .see-item.active .see-header{
+            background:#0026ff;
+            color:#ffffff
+        }
+        .see-header {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background: #e4e4e4;
+            padding: 10px 10px;
+            margin-bottom:10px;
+            cursor:pointer;
+        }
+
+        .see-body {
+            padding: 10px 10px;
+            display:none;
+        }
+
+        #see-more {
+            max-width: 1100px;
+            margin: 0px auto
+        }
+        #seemore{
+            text-align:center;
+        }
+
+        #see {
+            text-align: center;
+        }
+
+        }
+
+        #Prod-label {
+            float: right;
+            max-height: 60px;
+            max-width: 100px;
+        }
+
+        #ProdName {
+            font-family: Arial;
+            font-size: medium;
+            font-weight: 200;
+            word-break: break-all;
+        }
+
+        #Prod-img {
+            max-height: 100%;
+            max-width: 100%;
+            padding: 50px;
+        }
+
+        #newPrice {
+            display: inline;
+            color: cornflowerblue;
+        }
+
+        #oldPrice {
+            display: inline;
+            color: grey;
+            font-size: small;
+            font-family: Arial;
+        }
+
+        #discont {
+            color: grey;
+            font-family: Arial;
+            font-size: small;
+            display: inline;
+        }
+
+        #prod-Info {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        #IP-Prod {
+            width: 20%;
+        }
+
+        #IPhone {
+            width: 20%;
+        }
+
+        #topmenu {
+            display: table;
+            width: 100%; /*Optional*/
+            height: auto;
+            table-layout: fixed; /*Optional*/
+            border-spacing: unset; /*Optional*/
+            background-color: dimgrey;
+        }
+
+        #header-logo {
+            width: 15%;
+            display: table-cell;
+        }
+
+        #header-menu {
+            width: 70%;
+            display: table-cell;
+            list-style-type: square;
+        }
+
+
+
+        #header-icon-flag {
+            width: 15%;
+            display: table-cell;
+        }
+
+        #Header {
+            width: 100%;
+            height: auto;
+            background-color: grey;
+        }
+
+        #menu {
+            display: flex;
+            list-style: none;
+            text-align: center;
+        }
+
+        #page {
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #information-img {
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-width: 400px;
+            display: block;
+        }
+    </style>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+
+<body>
+
+    <div class="products">
+
+        <table border="0" id="prod-Info">
+            <tr>
+                <td id="IPhone">
+                    <img id="Prod-label" src="https://shopdunk.com/images/uploaded/icon/new.png" /><br />
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0020311_iphone-15-pro-max-256gb_240.webp" /><br />
+                    <p id="ProdName"><b>iPhone 15 Pro Max 256GB</b> </p>
+                    <p id="newPrice">34.999.000đ</p>
+
+                </td>
+                <td id="IPhone">
+                    <img id="Prod-label" src="https://shopdunk.com/images/uploaded/icon/new.png" /><br />
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0020313_iphone-15-pro-128gb_240.webp" /><br />
+                    <p id="ProdName"><b>iPhone 15 Pro 128GB</b> </p>
+                    <p id="newPrice">28.999.000đ</p>
+
+                </td>
+                <td id="IPhone">
+                    <img id="Prod-label" src="https://shopdunk.com/images/uploaded/icon/new.png" /><br />
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0020317_iphone-15-plus-128gb_240.webp" /><br />
+                    <p id="ProdName"><b>iPhone 15 Plus 128GB</b> </p>
+                    <p id="newPrice">25.999.000đ</p>
+                </td>
+                <td id="IPhone">
+                    <img id="Prod-label" src="https://shopdunk.com/images/uploaded/icon/new.png" /><br />
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0020320_iphone-15-128gb_240.webp" /><br />
+                    <p id="ProdName"><b>iPhone 15 128GB</b> </p>
+                    <p id="newPrice">22.999.000đ</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0007808_iphone-14-pro-max-128gb_240.png" /><br />
+                    <p id="ProdName"><b>iPhone 14 Pro Max 128GB</b> </p>
+                    <p id="newPrice">26.150.000đ</p>
+                    <p id="oldPrice"><del>34.990.000đ</del></p>
+                    <p id="discont">-25%</p>
+                </td>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0008734_iphone-14-pro-128gb_240.png" /><br />
+                    <p id="ProdName"><b>iPhone 14 Pro 128GB</b> </p>
+                    <p id="newPrice">23.899.000đ</p>
+                    <p id="oldPrice"><del>30.990.000đ</del></p>
+                    <p id="discont">-22%</p>
+                </td>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0009495_iphone-14-plus-128gb_240.png" /><br />
+                    <p id="ProdName"><b>iPhone 14 Plus 128GB</b> </p>
+                    <p id="newPrice">21.190.000đ</p>
+                    <p id="oldPrice"><del>27.990.000đ</del></p>
+                    <p id="discont">-24%</p>
+                </td>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0009181_iphone-14-128gb_240.png" /><br />
+                    <p id="ProdName"><b>iPhone 14 128GB</b> </p>
+                    <p id="newPrice">18.690.000đ</p>
+                    <p id="oldPrice"><del>24.990.000đ</del></p>
+                    <p id="discont">-25%</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0012164_iphone-11-64gb_240.webp" /><br />
+                    <p id="ProdName"><b>iPhone 11 64GB</b> </p>
+                    <p id="newPrice">10.490.000đ</p>
+                    <p id="oldPrice"><del>14.990.000đ</del></p>
+                    <p id="discont">-30%</p>
+                </td>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0012165_iphone-11-128gb_240.jpeg" /><br />
+                    <p id="ProdName"><b>iPhone 11 128GB</b> </p>
+                    <p id="newPrice">11.890.000đ</p>
+                    <p id="oldPrice"><del>16.990.000đ</del></p>
+                    <p id="discont">-30%</p>
+                </td>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0000596_iphone-13_240.png" /><br />
+                    <p id="ProdName"><b>iPhone 13</b> </p>
+                    <p id="newPrice">16.190.000đ</p>
+                    <p id="oldPrice"><del>24.990.000đ</del></p>
+                    <p id="discont">-35%</p>
+                </td>
+                <td id="IPhone">
+
+                    <img id="Prod-img" src="https://shopdunk.com/images/thumbs/0000597_iphone-13-mini_240.png" /><br />
+                    <p id="ProdName"><b>iPhone 13 mini</b> </p>
+                    <p id="newPrice">16.990.000đ</p>
+                    <p id="oldPrice"><del>21.990.000đ</del></p>
+                    <p id="discont">-22%</p>
+                </td>
+            </tr>
+        </table>
+
+
+        <div id="page">
+            <input type="submit" value="1">  </input>
+            <input type="submit" value="2">  </input>
+            <input type="submit" value="&gt;">  </input>
+        </div>
+
+        <table border="0" id="prod-Info">
+            <tr>
+                <td id="IPhone">
+                    <img id="information-img" src="https://cdn.huntoffice.ie/images/P.cache.large/auto_20220428194601_44394792_00_6d798890-4d23-4301-810f-c87996b08ce1_MNGK3B-A.jpg" /><br />
+                    <p id="information"><b>Tìm iphone phù hợp với bạn</b> </p>
+                    <p>
+                        <a href="https://shopdunk.com/so-sanh-iphone">so sánh các iphone></a> <br>
+                    </p>
+                </td>
+                <td id="IPhone">
+
+                    <img id="information-img" src="https://next-one.store/userfiles/99c63cdc-695e-4e6f-928f-85f4e6dfa7d5/products/7171879_big.jpg" /><br />
+                    <p id="information"><b>Phụ kiện iphone thường mua kèm</b> </p>
+
+                    <p> 
+                        
+                        <a href="https://shopdunk.com/phu-kien">Tìm Phụ Kiện></a> <br>
+                    </p>
+                </td>
+            </tr>
+            </table>
+        <table border="0" id="see-more">
+           <tr>
+               <td id=" see-more">
+                   <h1>Lịch sử hình thành, phát triển của iPhone</h1>
+                   <p>iPhone là dòng điện thoại thông minh được phát triển từ Apple Inc, được ra mắt lần đầu tiên bởi Steve Jobs và mở bán năm 2007. Bên cạnh tính năng của một máy điện thoại thông thường, iPhone còn được trang bị màn hình cảm ứng, camera, khả năng chơi nhạc và chiếu phim, trình duyệt web... Phiên bản thứ hai là iPhone 3G ra mắt tháng 7 năm 2008, được trang bị thêm hệ thống định vị toàn cầu, mạng 3G tốc độ cao. Trải qua 15 năm tính đến nay đã có đến 34 mẫu iPhone được sản xuất từ dòng 2G cho đến iPhone 13 Pro Max và Apple là một trong những thương hiệu điện thoại được yêu thích và sử dụng phổ biến nhất trên thế giới.</p><br />
+                   <h2>iPhone có những mã máy nào?</h2>
+                   <p>Những chiếc iPhone do Apple phân phối tại thị trường nước nào thì sẽ mang mã của nước đó. Ví dụ: LL: Mỹ, ZA: Singapore, TH: Thái Lan, JA: Nhật Bản, Những mã này xuất hiện tại Việt Nam đều là hàng xách tay, nhập khẩu. Còn tại Việt Nam, iPhone sẽ được mang mã VN/A. Tất cả các mã này đều là hàng chính hãng phân phối của Apple. Lợi thế khi bạn sử dụng iPhone mã VN/A đó là chế độ bảo hành tốt hơn với 12 tháng theo tiêu chuẩn của Apple. iPhone của bạn sẽ được bảo hành tại tất cả các trung tâm bảo hành Apple tại Việt Nam, một số mã quốc tế bị từ chối bảo hành và phải đem ra các trung tâm bảo hành Apple tại nước ngoài. Rất là phức tạp đúng không nào?</p><br />
+                   <h3>Apple đã khai tử những dòng iPhone nào?</h3>      
+                   <p id="seemore">
+                       <a href="">Xem thêm></a> <br>
+                   </p>
+
+</td>
+           </tr>
+
+
+
+</table>
+</body>
+</html>
